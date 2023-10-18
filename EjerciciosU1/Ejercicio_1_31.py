@@ -19,8 +19,9 @@
 #	
 #Fin
 
-num = int(input("Introduce un número: "))
 
-while num < 1 or num > 10:
-    num = int(input("Inténtalo otra vez! (1-10): "))
-print ("Correcto!")
+num = int(input("Introduce un número: "))               #Crea la variable num con el valor que le proporcione el usuario.
+
+while num < 1 or num > 10:                              #Mientras la variable num sea inferior a 1 o superior a 10
+    num = int(input("Inténtalo otra vez! (1-10): "))    #seguirá pidiendo inputs y actualizando num
+print ("Correcto!")                                     #Cuando el valor esté entre 1-10 entonces dará por finalizado el código con el mensaje "Correcto!".

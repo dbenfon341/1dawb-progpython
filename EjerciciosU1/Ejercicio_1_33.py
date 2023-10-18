@@ -36,12 +36,12 @@
 # Fin
 
 
-print ("Dame tres números: ")
+print ("Dame tres números: ")                           #Pide tres valores para las variables n1, n2 y n3.
 n1 = int(input())
 n2 = int(input())
 n3 = int(input())
 
-if n1 < n2 and n1 < n3:
+if n1 < n2 and n1 < n3:                                 
     if n2 < n3:
         print("Tus números son:", n1, n2, n3)
     else:

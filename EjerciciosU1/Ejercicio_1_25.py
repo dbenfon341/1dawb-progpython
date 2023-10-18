@@ -3,8 +3,8 @@
 # Adaptar el programa anterior para que también funcione cuando el día o el mes se introduzcan con un solo carácter.
 
 
-fecha = input("Introduce tu fecha de nacimiento con el formato dd/mm/aaaa: ")
-fechadividida = fecha.split("/")
+fecha = input("Introduce tu fecha de nacimiento con el formato dd/mm/aaaa: ") #Crea la variable fecha con el valor introducido, debe ser xx/xx/xxxx.
+fechadividida = fecha.split("/")                                              #Divide la variable en tres listas cada vez que lee /.
 dia = fechadividida[0]
 mes = fechadividida[1]
 año = fechadividida[2]

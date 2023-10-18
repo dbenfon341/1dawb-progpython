@@ -3,4 +3,4 @@
 # (3+2/2·5)2
 
 
-print(((3+2)/(2*5))**2)
+print(((3+2)/(2*5))**2) #Se utilizan más paréntesis porque es la primera regla con la que se calcula.

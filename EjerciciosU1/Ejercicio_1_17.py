@@ -3,10 +3,10 @@
 # en líneas distintas el nombre del usuario tantas veces como el número introducido.
 
 
-nom = str(input("Escribe tu nombre de usuario: "))
-num = int(input("Escribe otro número: "))
+nom = str(input("Escribe tu nombre de usuario: "))          #Crea una variable string con el nombre nom.
+num = int(input("Escribe otro número: "))                   #Crea una variable numero entero llamada num.
 
-i = 0
-while i < num:
-    print (nom)
-    i += 1
+i = 0                                                       #Se crea una variable llamada i que empieza en 0 que hace como contador.
+while i < num:                                              #Mientras el contador (que empieza en 0) sea menor que la variable numero:
+    print (nom)                                             #imprime la variable nom
+    i += 1                                                  #Suma +1 a la variable i (la que hace de contador). Cuando la variable llegue a ser mayor que num, parará.

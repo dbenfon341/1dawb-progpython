@@ -4,10 +4,10 @@
 # suma = n(n+1) / 2
 
 
-numero = int(input("Introduce un número: "))
+numero = int(input("Introduce un número: "))                    #Pide un número al usuario.
 
-if numero < 1:
-    print("Por favor, introduce un número entero positivo.")
-else:
-    numeros = numero * (numero+1) // 2
-    print(numeros)
+if numero < 1:                                                  #Si el número es menor a 0, acaba el código.
+    print("Por favor, introduce un número entero positivo.")    #Muestra error en la consola por introducir un número no entero.
+else:                                                           #Si no, hace lo siguiente:
+    numeros = numero * (numero+1) // 2                          #Aplicamos la fórmula que nos proporciona el enunciado, numero * (numero+1) / 2 y lo añade a la variable numero*S*.
+    print(numeros)                                              #Nos da la variable numero*S* con la formula aplicada.

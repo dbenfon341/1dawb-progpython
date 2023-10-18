@@ -25,14 +25,14 @@
 # Fin
 
 
-a = int(input("Introduce un número entero: "))
-b = int(input("Introduce otro número entero: "))
+a = int(input("Introduce un número entero: "))                                                      #Crea la variable a con el valor que proporcione el usuario.
+b = int(input("Introduce otro número entero: "))                                                    #Crea la variable b con el valor que proporcione el usuario.
 
-if a == b:
+if a == b:                                                                                          #Si a es igual a b da un mensaje de error
     print("Los números no pueden ser iguales.")
-elif a < b:
-    cantidadnumeros = b - a
-    print(f"El número menor es el {a} y entre ellos existen {cantidadnumeros} números enteros.")
-else:
-    cantidadnumeros = a - b
-    print(f"El número menor es el {b} y entre ellos existen {cantidadnumeros} números enteros.")
+elif a < b:                                                                                         #En el caso de que no sean iguales y a sea menor que b entonces:
+    cantidadnumeros = b - a                                                                         #Crea la variable cantidadnumeros, con el valor de la resta de b - a.
+    print(f"El número menor es el {a} y entre ellos existen {cantidadnumeros} números enteros.")    #Muestra en pantalla el numero menor (a) y la variable cantidadnumeros (los numeros que hay entre ellos).
+else:                                                                                               #En el caso de que a sea mejor que b:
+    cantidadnumeros = a - b                                                                         #Crea la variable cantidadnumeros, con el valor de la resta de a - b.
+    print(f"El número menor es el {b} y entre ellos existen {cantidadnumeros} números enteros.")    #Muestra en pantalla el numero menor (b) y la variable cantidadnumeros (los numeros que hay entre ellos).

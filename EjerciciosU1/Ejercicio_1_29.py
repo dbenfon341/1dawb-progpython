@@ -23,12 +23,13 @@
 # Fin
 
 
-nombre = input("Introduce tu nombre: ")
-if nombre == (""):
-    nombre = ("Desconocido")
+nombre = input("Introduce tu nombre: ")                 #Crea la variable nombre, con el valor que proporcione el usuario
+if nombre == (""):                                      #Si el valor que proporciona el usuario está vacío entonces:
+    nombre = ("Desconocido")                            #Actualiza la variable nombre con el valor "Desconocido".
 
-edad = int(input("Introduce tu edad: "))
-while edad <= 0 or edad >= 125:
-    edad = int(input("Introduce una edad válida: "))
+edad = int(input("Introduce tu edad: "))                #Crea la variable "edad" con el valor introducido por el usuario.
 
-print(f"Te llamas {nombre} y tienes {edad} años, te quedan aún {125 - edad} años por cumplir.")
+while edad <= 0 or edad >= 125:                         #Se crea un bucle en el que si la edad introducida es menor o igual a 0 o mayor o igual a 125 entonces:
+    edad = int(input("Introduce una edad válida: "))    #Vuelve a pedir una edad nueva para actualizar la variable edad, hasta que entre en un valor comprendido entre 0 y 125.
+
+print(f"Te llamas {nombre} y tienes {edad} años, te quedan aún {125 - edad} años por cumplir.")     #Muestra el resultado, restandole 125 a la edad.

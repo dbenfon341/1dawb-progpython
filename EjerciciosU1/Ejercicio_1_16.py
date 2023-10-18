@@ -6,6 +6,6 @@
 
 panes = int(input("Introduce la cantidad de barras de pan vendido que no es del día: "))
 precio = 3.49
-coste = panes * precio * (1 - 0.6)
+coste = (panes * precio) * (1 - 0.6)
 
 print("El coste de las barras de pan frescas es de", precio ,"€.\nEl descuento del pan que no es del dia es del 60%.\nEl coste total a pagar es:", round(coste, 2) ,"€.")

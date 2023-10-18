@@ -5,15 +5,13 @@
 # Calcula el interés: capital * (1 + interes)
 
 
-capital = float(input("Introduce tus ahorros: "))
+capital = float(input("Introduce tus ahorros: "))                       #Pide al usuario un valor tipo float para añadirlo a la variable capital.
+
 interes = 0.04
 primeraño = capital * (1 + interes)
 segundoaño = primeraño * (1 + interes)
 terceraño = segundoaño * (1 + interes)
-primeraño = round(primeraño, 2)
-segundoaño = round(segundoaño, 2)
-terceraño = round(terceraño, 2)
 
-print("Ahorros después del primer año:", primeraño)
-print("Ahorros después del segundo año:", segundoaño)
-print("Ahorros después del tercer año:", terceraño)
+print("Ahorros después del primer año:", round(primeraño, 2))
+print("Ahorros después del segundo año:", round(segundoaño, 2))
+print("Ahorros después del tercer año:", round(terceraño, 2))
