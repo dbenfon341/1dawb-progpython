@@ -3,7 +3,7 @@
 
 
 resultado = 0                                               #Se crea la variable resultado con valor 0.
-for i in range(0,3 + 1):                                        #Bucle for que da tres vueltas por el rango 0, 3.
+for i in range(0,3 + 1):                                    #Bucle for que da tres vueltas por el rango 0, 3.
     numero = int(input("Introduce un número: "))            #Introduce un input en cada vuelta del bucle.
     print(i)
     resultado += numero                                     #Resultado pasa a ser 0 + el número que se incluya en el input en cada pase del bucle.
