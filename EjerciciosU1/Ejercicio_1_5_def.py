@@ -6,7 +6,8 @@
 def calculo_iva(articulo, iva):
     ivaaplicado = (iva / 100) * (1 + articulo)
     total = articulo + ivaaplicado
-    print (f"El artículo de coste {articulo} con el IVA aplicado ({iva}%) es: {total}")
+    print (f"El artículo de coste {articulo} con el IVA aplicado ({iva}%) es: {total}€")
+    return
 
 
 

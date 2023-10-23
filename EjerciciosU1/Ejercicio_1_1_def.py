@@ -3,10 +3,8 @@
 # Recibe un nombre y retorna una cadena de caracteres con el resultado.
 
 
-def dar_bienvenida():
-    nombre = input("Escribe tu nombre: ")
-    print (f"Bienvenido, {nombre}.")
-    return
+def dar_bienvenida(nombre):
+    return print (f"Bienvenido, {nombre}.")
 
 
-dar_bienvenida()
+dar_bienvenida(input("Escribe tu nombre: "))

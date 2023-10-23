@@ -7,7 +7,7 @@
 
 def calculo(num1):
     num2 = num1 * (num1+1) // 2
-    print(f"El número es: {num2}")
+    return print(f"El número es: {num2}")
 
 
 calculo(int(input("Introduce un número: ")))
