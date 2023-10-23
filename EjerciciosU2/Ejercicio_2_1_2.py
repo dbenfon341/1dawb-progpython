@@ -3,3 +3,15 @@
 # introducida por el usuario coincide con la guardada en la variable sin tener en cuenta mayúsculas y minúsculas.
 
 
+def ejercicio():
+    password = "asdf123456"
+    check = input("Introduce la contraseña: ")
+
+    if check == password:
+        print ("Contraseña correcta.")
+    else:
+        print ("La contraseña es incorrecta.")
+    return
+
+
+ejercicio()

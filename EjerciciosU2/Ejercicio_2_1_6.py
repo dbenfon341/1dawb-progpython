@@ -4,3 +4,5 @@
 # Escribir un programa que pregunte al usuario su nombre y sexo, y muestre por pantalla el grupo que le corresponde.
 
 
+def ejercicio():
+    
