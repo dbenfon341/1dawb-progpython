@@ -3,5 +3,5 @@
 # donde NOMBRE es el nombre de usuario en mayúsculas y n es el número de letras que tienen el nombre.
 
 
-nombre = input("Introduce tu nombre: ")
-print(nombre,"tiene",len(nombre),"letras.")
+nombre = input("Introduce tu nombre: ")                             #Crea la variable nombre con el valor que introduzca el usuario.
+print(nombre,"tiene",len(nombre),"letras.")                         #Muestra en pantalla la variable nombre, y con len se muestra el número de letras que tiene dicha palabra.
